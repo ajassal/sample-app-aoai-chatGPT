@@ -1,6 +1,6 @@
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_SERVICE=egnytebcodes
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_INDEX=egnytebcodes
-az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_KEY=AnCdlxECF9NUHmOpEV13aAzoFTJjOI0u0f5f1TKu8qAzSeBmhArA
+az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_KEY=
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_USE_SEMANTIC_SEARCH=True
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_SEMANTIC_SEARCH_CONFIG=default
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_INDEX_IS_PRECHUNKED=True
@@ -15,7 +15,7 @@ az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --s
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_SEARCH_PERMITTED_GROUPS_COLUMN=
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_RESOURCE=datalab-openai-dev
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_MODEL=gpt-35-turbo
-az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_KEY=e1c7777070814e8ca196496e141c74b9
+az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_KEY=
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_MODEL_NAME=gpt-35-turbo
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_TEMPERATURE=0
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_TOP_P=1.0
@@ -26,7 +26,7 @@ az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --s
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_STREAM=True
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_ENDPOINT=https://datalab-openai-dev.openai.azure.com/
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_EMBEDDING_ENDPOINT=https://datalab-openai-dev.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-06-01-preview
-az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_EMBEDDING_KEY=e1c7777070814e8ca196496e141c74b9
+az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_OPENAI_EMBEDDING_KEY=
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_COSMOSDB_ACCOUNT=
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_COSMOSDB_DATABASE=
 az webapp config appsettings set -g datalab-azure-openai-dev -n egnytebcodes --settings AZURE_COSMOSDB_CONVERSATIONS_CONTAINER=
