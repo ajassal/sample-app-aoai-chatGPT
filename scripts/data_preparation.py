@@ -363,7 +363,7 @@ def create_index(config, credential, form_recognizer_client=None, use_layout=Fal
     add_embeddings = False
     if config.get("vector_config_name") and os.environ.get("EMBEDDING_MODEL_ENDPOINT") and os.environ.get("EMBEDDING_MODEL_KEY"):
         add_embeddings = True
-    result = chunk_directory(config["data_path"], num_tokens=config["chunk_size"], token_overlap=config.get("token_overlap",0), form_recognizer_client=form_recognizer_client, use_layout=use_layout, njobs=njobs, add_embeddings=add_embeddings)
+    result = chunk_directory(config["data_path"], num_tokens=config["chunk_size"], token_overlap=config.get("token_overlap",0), form_recognizer_client=form_recognizer_client, use_layout=use_layout, njobs=njobs, add_embeddings=add_embeddings, ignore_errors=False)
 
     if len(result.chunks) == 0:
         raise Exception("No chunks found. Please check the data path and chunk size.")
