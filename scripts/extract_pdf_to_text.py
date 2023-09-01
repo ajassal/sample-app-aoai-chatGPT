@@ -13,8 +13,8 @@ logging.basicConfig(level=logging.INFO)
 
 def extract_pdf(ip_fpath, op_fpath):
     logging.info("Processing: %s -> %s", ip_fpath, op_fpath)
-    form_rec_resource = "egnyteosharegs"
-    form_rec_key = "fc1ab7ea701f4909b8c73a4ff25f1cc4"
+    form_rec_resource = "RESOURCE"
+    form_rec_key = "KEY"
     form_recognizer_client = DocumentAnalysisClient(endpoint=f"https://{form_rec_resource}.cognitiveservices.azure.com/", credential=AzureKeyCredential(form_rec_key))
 
     content = extract_pdf_content(ip_fpath, form_recognizer_client, use_layout=True)
